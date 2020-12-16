@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>style="Paris Shirt"</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+	 <header>
+	 <nav>
+	 	   <ul>
+	 	   	<li><a href="index.html">Home</a></li>
+	 	   	<li><a href="checkout.html">Checkout</a></li>
+	 	   	<li><a href="contacts.html">Contacts</a></li>
+	 	   </ul>
+	 </nav>
+	 	<h1>Paris Shirt</h1>
+	 </header>
+	 <section>
+	 	<div class="contact-title">
+		<h1>$80</h1>
+		
+		<div style="position: relative; left:-300px;">
+		<img src="/fanshawe IDP31/MMED-1051/assignments/FIP/images/Paris Shirt.jpg" alt="Paris Shirt" style="width:700px;height:800px;">
+</div>
+
+		</section>
+		<section>lower-section</section>
+	<footer><nav>
+	 	   <ul>
+	 	   	<li><a href="index.html">Home</a></li>
+	 	   	<li><a href="checkout.html">Checkout</a></li>
+	 	   	<li><a href="contacts.html">Contacts</a></li>
+	 	   </ul>
+	 </nav></footer>
+	
+</body>
+</html>

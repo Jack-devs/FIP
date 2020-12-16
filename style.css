@@ -1,0 +1,168 @@
+body{background: rgb(58,58,58);
+			color: white;
+			font-family: Helvetica;
+			margin: 0;
+			padding: 0;
+		}
+		.contact-title{
+			margin-top: 100px;
+			color: #fff;
+			text-transform:uppercase;
+			transition:all 4s ease_in_out;
+		}
+		.contact-title h1{
+			font-size: 32px;
+			color: white;
+		}
+		.contact-title h2{
+			font-size:16px;
+			color: white;
+			display: inline-flex;
+			flex-direction: row;
+		}
+		form{
+			margin-top: 50px;
+			transiton: all 4s ease_in_out;
+		}
+		.form-control{
+			width: 600px;
+			background: transparent;
+			border: none;
+			outline: none;
+			border-bottom: 1px solid white;
+			color: white;
+			font-size: 18px;
+			margin-bottom: 16;
+		}
+		.home-image{
+			left
+  border-radius: 50%;
+  display: inline-flex;
+  flex-direction: row;
+		}
+		.price div{
+			word-spacing: 300px;
+			background: gray;
+  padding: 5px 20px 15px 20px;
+  border: 10px solid lightgrey;
+  border-radius: 30px;
+		}
+		header {
+			background: black;
+			padding: 20px;
+		}
+		section{
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			background: linear-gradient(rgba(0, 0, 150, 0.5),rgba(0, 0, 50, 0.5)), url(jackbench.jpeg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+		}
+
+		div {
+			margin: auto;
+			width: 100px;
+		}
+
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		li{
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		footer{
+			background: black;
+			padding: 10px 20px;
+		}
+		.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: green;
+  padding: 50px 200px 150px 200px;
+  border: 100px solid lightgrey;
+  border-radius: 300px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
